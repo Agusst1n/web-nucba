@@ -368,6 +368,12 @@ form{
     .main_h1_title{
         font-size: 25px;
     }
+    .header_title{
+        width: 80%;
+        height: 30%;
+        /* border: solid 1px red; */
+        backdrop-filter: blur(5px);
+    }
 }
 @media(max-width:455px){
     .header_h1_title{
@@ -382,6 +388,12 @@ form{
         border: solid 1px red;
         border-radius: 30px;
         overflow: hidden;
+    }
+    .header_title{
+        width: 90%;
+        height: 30%;
+        /* border: solid 1px red; */
+        backdrop-filter: blur(5px);
     }
 }
 @media(max-width:361px){
