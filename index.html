@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="home" class="header">
+        <div class="contain">
+            <div class="controls btn">
+
+                <!-- <button class="button" onclick="animation()"><ion-icon name="play-outline"></ion-icon></button> -->
+                <ion-icon class="play_Icon" name="play-outline"></ion-icon>
+                <ion-icon class="pause_Icon" name="pause-outline"></ion-icon></button>
+                <!-- <button class="button" onclick="stopAnimation()"><ion-icon name="pause-outline"></ion-icon></button> -->
+            </div>
+            <div class="btns menuToggle">
+                <ion-icon name="menu-outline"></ion-icon>
+                <ion-icon name="close-outline"></ion-icon>
+            </div>
+        </div>
+        <nav class="header_nav">
+            <ul class="header_list">
+                <li><a class="header_link" href="#home">Home</a></li>
+                <li><a class="header_link" href="#civilization">Civilization</a></li>
+                <li><a class="header_link" href="login.html">Login</a></li>
+                <li><a class="header_link" href="#contacto">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header_title">
+            <h1 class="header_h1_title">artificial intelligence</h1>
+            <p class="header_paragraph">El futuro ha comenzado</p>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main_title">
+            <h1 class="main_h1_title" id="civilization">La civilizacion del mañana</h1>
+        </div>
+        <div class="main_card_contain">
+            <div class="main_card">
+                <img class="card_img" src="./images/nft4.jpeg" alt="">
+            </div>
+            <div class="main_card">
+                <img class="card_img2" src="./images/nft2.jpeg" alt="">
+            </div>
+            <div class="main_card">
+                <img class="card_img3" src="./images/nft6.jpeg" alt="">
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer">
+            <div class="contact">
+                <h1 class="contact_h1_title">Contact</h1>
+                <form action="https://formsubmit.co/agustingodoy207@gmail.com" method="POST" class="form">
+                    <input type="hidden" name="_subject" value="Nuevo Mensaje">
+                    <input name="nombre" placeholder="Nombre" class="name" required>
+                    <input type="email" name="email" placeholder="Email Address">
+                    <input type="hidden" name="_next" value="https://porfolio-rouge.vercel.app/thanks.html">
+                    <!-- <input type="hidden" name="_next" value="https://https://porfolio-rouge.vercel.app/thanks.html"> -->
+                    <textarea name="asunto" placeholder="Asunto" class="asunto" required></textarea>
+                    <button type="submit" value="Enviar" class="enviar_btn">Enviar</button>
+                </form>
+            </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
