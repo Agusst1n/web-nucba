@@ -132,16 +132,24 @@ form input{
 }
 @media(max-width:700px){
     .card{
-        width: 60%;
+        width: 70%;
         top: 15%;
         left: 20%;
     }
 }
 @media(max-width:520px){
     .card{
-        width: 70%;
+        width: 80%;
         top: 15%;
-        left: 20%;
+        left: 10%;
+    }
+    .main_derecha{
+        align-items: flex-start;
+        font-size: 12px;
+    }
+    .main_izquierda{
+        align-items: flex-end;
+        font-size: 12px;
     }
 }
 @media(max-width:380px){
