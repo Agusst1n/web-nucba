@@ -94,8 +94,8 @@
     position: absolute;
     left: 3%;
     top: 40%;
-    width: 30%;
-    height: 30%;
+    width: 37%;
+    height: auto;
     /* border: solid 1px red; */
     backdrop-filter: blur(5px);
 }
