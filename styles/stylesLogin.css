@@ -140,6 +140,9 @@ form input{
     }
 }
 @media(max-width:520px){
+    .main{
+        height: 100vh;
+    }
     .card{
         width: 80%;
         top: 15%;
@@ -155,6 +158,9 @@ form input{
     }
 }
 @media(max-width:380px){
+    .main{
+        height: 100vh;
+    }
     .card{
         width: 90%;
         top: 15%;
