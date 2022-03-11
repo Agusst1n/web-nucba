@@ -125,11 +125,41 @@ form input{
 /*===========*/
 /*   MEDIAS  */
 /*===========*/
+@media(max-width:912px){
+    .card{
+        width: 60%;
+        top: 15%;
+        left: 20%;
+    }
+    .main_derecha{
+        align-items: flex-start;
+        font-size: 12px;
+    }
+    .main_izquierda{
+        align-items: flex-end;
+        font-size: 12px;
+    }
+}
 @media(max-width:900px){
     .card{
         width: 40%;
         top: 15%;
         left: 30%;
+    }
+}
+@media(max-width:820px){
+    .card{
+        width: 50%;
+        top: 15%;
+        left: 25%;
+    }
+    .main_derecha{
+        align-items: flex-start;
+        font-size: 12px;
+    }
+    .main_izquierda{
+        align-items: flex-end;
+        font-size: 12px;
     }
 }
 @media(max-width:700px){
