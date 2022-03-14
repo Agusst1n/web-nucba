@@ -11,9 +11,9 @@
 }
 .main_izquierda{
     width: 50%;
-    background: #ad5389;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #667db6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 500%;
     display: flex;
     justify-content: center;
@@ -66,10 +66,10 @@
     background-color: white;
     top: 15%;
     left: 34%;
-    background-image: url(../images/ntf1.jpeg);
+    background-image: url(../images/nft6-color.jpeg);
     background-size: cover;
     background-position: center top;
-    /* opacity: 0.7; */
+    /* opacity: 0.9; */
     border-radius: 10px;
 }
 
@@ -89,7 +89,7 @@ form input{
     outline: none;
     border-top: none;
     border-right: none;
-    border-bottom: solid 2px violet;
+    border-bottom: solid 2px #9397c0;
     border-left: none;
     font-size: 20px;
 }
@@ -104,6 +104,9 @@ form input{
 }
 .form_btn:hover{
     opacity: 0.7;
+}
+::placeholder{
+    color: white;
 }
 @font-face{
     font-family:"Manhattan";

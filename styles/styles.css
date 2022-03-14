@@ -190,12 +190,12 @@
       justify-content: space-between;
       flex-direction: column;
       gap: 80px;
-      border: solid 1px violet;
+      /* border: solid 1px violet; */
   }
 .main_title{
     height: 70px;
     width: 100%;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     text-align: center;
     /* display: flex; */
     /* justify-content: center; */
@@ -206,14 +206,19 @@
     text-transform: uppercase;
     letter-spacing: 6px;
     text-shadow: 2px 2px 2px black;
-    margin-top: 10%;
+    /* margin-top: 10%; */
     padding: 20px 0px;
+}
+.main_porque{
+    /* border: solid 1px red; */
+    color: white;
+    margin-bottom: 10%;
 }
 
 .main_card_contain{
     display: flex;
     justify-content: center;
-    border: solid 1px blue;
+    /* border: solid 1px blue; */
     flex-wrap: wrap;
     width: 100%;
     gap: 40px;
@@ -223,7 +228,7 @@
 .main_card{
     height: 450px;
     width: 350px;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     border-radius: 30px;
     overflow: hidden;
 }
@@ -258,6 +263,32 @@
 .card_img, .card_img2, .card_img3{
     border-radius: 30px;
 }
+/*======== */
+/*paragraph*/
+/*======== */
+.main_paragraph{
+    width: 100%;
+    height: 200px;
+    /* border: solid 1px forestgreen; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+}
+.main_h1{
+    /* border: solid 1px red; */
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+.main_p_paragraph{
+    width: 50%;
+    /* border: solid 1px blue; */
+    font-size: 25px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
 
 /*CARRUSEL*/
 .button{
@@ -299,7 +330,7 @@ body::-webkit-scrollbar-thumb{
     text-shadow: 2px 2px 2px black;
 }
 .contact{
-    border: solid 1px yellow;
+    /* border: solid 1px yellow; */
     width: 100%;
     height: 100%;
     display: flex;
@@ -307,6 +338,7 @@ body::-webkit-scrollbar-thumb{
     align-items: flex-start;
     flex-direction: column;
     padding-left: 10px;
+    padding-top: 20px;
     gap: 10px;
 }
 
@@ -315,7 +347,7 @@ form{
     flex-direction: column;
     gap: 20px;
     justify-content: flex-start;
-    border: solid 1px green;
+    /* border: solid 1px green; */
     align-items: flex-start;
     width: 80%;
     height: 70%;
@@ -364,7 +396,18 @@ form{
 /*===========*/
 /*   MEDIAS  */
 /*===========*/
+@media(max-width:730px){
+    .main_p_paragraph{
+        width: 80%;
+    }
+}
 @media(max-width:589px){
+    .main_p_paragraph{
+        font-size: 20px;
+    }
+    .main_h1{
+        font-size: 25px;
+    }
     .main_h1_title{
         font-size: 25px;
     }
@@ -377,6 +420,9 @@ form{
     }
 }
 @media(max-width:455px){
+    .main_paragraph{
+        margin-top: 80px;
+    }
     .header_title{
         top: 70%;
     }
@@ -401,6 +447,9 @@ form{
     }
 }
 @media(max-width:361px){
+    .main_paragraph{
+        margin-top:100px;
+    }
     .header_h1_title{
         font-size: 30px;
     }
@@ -410,7 +459,7 @@ form{
     .main_card{
         height: 350px;
         width: 250px;
-        border: solid 1px red;
+        /* border: solid 1px red; */
         border-radius: 30px;
         overflow: hidden;
     }

@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="./images/robotica.png">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>IA</title>
 </head>
 <body>
     <header id="home" class="header">
@@ -26,34 +30,43 @@
             <ul class="header_list">
                 <li><a class="header_link" href="#home">Home</a></li>
                 <li><a class="header_link" href="#civilization">Civilization</a></li>
-                <li><a class="header_link" href="login.html">Login</a></li>
-                <li><a class="header_link" href="#contacto">Contact</a></li>
+                <li><a class="header_link" href="./sections/login.html">Login</a></li>
+                <li><a class="header_link" href="./sections/register.html">Register</a></li>
+                <li><a class="header_link" href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <div class="header_title">
+        <div data-aos="fade-right" class="header_title">
             <h1 class="header_h1_title">artificial intelligence</h1>
             <p class="header_paragraph">El futuro ha comenzado</p>
         </div>
     </header>
 
     <main class="main">
-        <div class="main_title">
+        <div  data-aos="fade-up" class="main_paragraph">
+            <h1 class="main_h1">Es el presente y el futuro de la tecnología.</h1>
+            <p class="main_p_paragraph">La inteligencia artificial es la habilidad de una máquina de presentar las mismas capacidades que los seres humanos, como el razonamiento, el aprendizaje, la creatividad y la capacidad de planear. </p>
+        </div>
+        <div data-aos="fade-up" class="main_title">
             <h1 class="main_h1_title" id="civilization">La civilizacion del mañana</h1>
         </div>
         <div class="main_card_contain">
-            <div class="main_card">
+            <div data-aos="fade-up" class="main_card">
                 <img class="card_img" src="./images/nft4.jpeg" alt="">
             </div>
-            <div class="main_card">
+            <div data-aos="fade-up" class="main_card">
                 <img class="card_img2" src="./images/nft2.jpeg" alt="">
             </div>
-            <div class="main_card">
+            <div data-aos="fade-up" class="main_card">
                 <img class="card_img3" src="./images/nft6.jpeg" alt="">
             </div>
         </div>
+        <div data-aos="fade-right" class="main_porque">
+            <h3 class="main_h1">¿Por qué es tan importante implementar la Inteligencia Artificial?</h3>
+            <p class="main_p_paragraph"> La IA permite automatizar procesos que comúnmente se hacen de manera manual, permitiendo así una mayor eficiencia de los procedimientos de manera confiable y sin provocar fatiga a las personas.</p>
+        </div>
 
     </main>
-    <footer class="footer">
+    <footer id="contact" class="footer">
             <div class="contact">
                 <h1 class="contact_h1_title">Contact</h1>
                 <form action="https://formsubmit.co/agustingodoy207@gmail.com" method="POST" class="form">
@@ -69,6 +82,11 @@
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="./app.js"></script>
+    <script src="./javascript/app.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
